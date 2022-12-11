@@ -1,14 +1,46 @@
 .title{
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(45, 201, 201);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(27, 243, 243);
+    margin: 2pt 2pt 2pt 2pt;
 }
 
-.todoIconAdd{
-    color: rgb(54, 52, 52);
-    font-size: 50px;
+.title p{
+    
+    font-size: larger;
+    align-self: center;
+    font-weight: 500;
+    margin-top:    12px;
+    margin-bottom: 10px;
 }
+
+.todoListIcon{
+    align-self: center;
+    color: rgb(26, 58, 55);
+    font-size: 30px;
+}
+
 
 .addButton{
-    background-color: aliceblue;
+    
+    align-self: center;
+    background-color: rgb(26, 58, 55);
+    width   : 40px;
+    height  : 40px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    margin-top:    7px ;
+    margin-bottom: 7px ;
+}
+.addButton p{
+
+    margin: 0 auto;
+}
+
+.addButton:hover{
+    background-color: white;
+    color: rgb(26, 58, 55);
 }

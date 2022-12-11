@@ -1,0 +1,14 @@
+.editDeleteBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.editDeleteBtn Button{
+    margin-left: 5px;
+}
+
+.editDeleteBtn .date  p{
+    margin-top: 10px;
+    font-weight: 350 ;
+    font-style: italic;
+}

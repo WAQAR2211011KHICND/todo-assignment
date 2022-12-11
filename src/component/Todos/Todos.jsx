@@ -1,7 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Individual_Todos from './Individual_Todo.jsx';
-import { useState } from 'react';
+import IndividualTodos from './IndividualTodo.jsx';
 
 function Todos({todosArray, setTodoArray }){
 
@@ -14,7 +13,8 @@ function Todos({todosArray, setTodoArray }){
         todosArray.map(todo =>{
             return (
             <>
-                <Individual_Todos 
+                <IndividualTodos 
+                setTodoArray = {setTodoArray}
                 id =      {todo.title} 
                 title =   {todo.title} 
                 details = {todo.details} 
