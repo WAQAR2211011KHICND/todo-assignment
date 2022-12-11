@@ -1,10 +1,12 @@
 .title{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     background-color: rgb(27, 243, 243);
     margin: 2pt 2pt 2pt 2pt;
+    padding: 0px 5px 0px 15px;
+    border-radius: 12px;
 }
 
 .title p{
@@ -43,4 +45,8 @@
 .addButton:hover{
     background-color: white;
     color: rgb(26, 58, 55);
+}
+
+.addButton::after{
+    border: none;
 }

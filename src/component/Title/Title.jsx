@@ -13,7 +13,8 @@ function Title({todosArray, setTodoArray }){
     <div className="title">
             <FontAwesomeIcon className='todoListIcon' icon={faListCheck} />
             <div className="div">
-                <p>ToDo List</p>
+                {/* <p>ToDo List</p> */}
+                <p>TODO LIST</p>
             </div>
             <button 
                 
